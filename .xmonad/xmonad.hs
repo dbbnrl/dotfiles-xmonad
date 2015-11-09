@@ -361,15 +361,15 @@ myKeys =
 
   -- Decrease volume.
   , ((myModMask .|. controlMask, xK_j),
-     spawn "amixer -q set Master 10%-")
+     spawn "amixer -q set Master 5%-")
   , ((0, 0x1008FF11),
-     spawn "amixer -q set Master 10%-")
+     spawn "amixer -q set Master 5%-")
 
   -- Increase volume.
   , ((myModMask .|. controlMask, xK_k),
-     spawn "amixer -q set Master 10%+")
+     spawn "amixer -q set Master 5%+")
   , ((0, 0x1008FF13),
-     spawn "amixer -q set Master 10%+")
+     spawn "amixer -q set Master 5%+")
 
   -- Audio previous.
   , ((0, 0x1008FF16),
